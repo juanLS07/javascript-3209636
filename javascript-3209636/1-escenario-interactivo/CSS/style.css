@@ -1,0 +1,27 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo{
+    background-image: url(../IMG/fondo-mine.jpg);
+    width: 750px;
+    height: 500px;
+    background-size: cover;
+}
+
+.portal-nether img{
+    width: 150px;
+    position: absolute;
+    background-size: cover;
+    top: 257px;
+}
+
+.portal-end img{
+    width: 170px;
+    position: absolute;
+    background-size: cover;
+    top: 269px;
+    left: 600px;
+}
