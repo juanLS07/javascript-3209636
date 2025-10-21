@@ -4,24 +4,73 @@ section {
     align-items: center;
 }
 
-.fondo{
+.fondo {
     background-image: url(../IMG/fondo-mine.jpg);
     width: 750px;
     height: 500px;
     background-size: cover;
 }
 
-.portal-nether img{
-    width: 150px;
-    position: absolute;
+.bloque-tierra img {
+    width: 9%;
     background-size: cover;
-    top: 257px;
+    position: absolute;
+    top: 24%;
+    right: 30%;
 }
 
-.portal-end img{
-    width: 170px;
-    position: absolute;
+.steve img {
+    width: 17%;
     background-size: cover;
-    top: 269px;
-    left: 600px;
+    position: absolute;
+    top: 34%;
+}
+
+.loro img {
+    width: 7%;
+    background-size: cover;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+}
+
+.diamante3 img{
+    width: 5%;
+    background-size: cover;
+    position: absolute;
+    top: 19%;
+    right: 32%;
+}
+
+.diamante1 img {
+    width: 5%;
+    background-size: cover;
+    position: absolute;
+    top: 57%;
+    right: 23%;
+}
+
+
+.diamante2 img {
+    width: 5%;
+    background-size: cover;
+    position: absolute;
+    top: 25%;
+    right: 66%;
+}
+
+.score1{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    color: black;
+    position: absolute;
+    top: 3%;
+    right: 69%;
 }
