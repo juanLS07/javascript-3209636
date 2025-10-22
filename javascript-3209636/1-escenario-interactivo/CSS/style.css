@@ -1,4 +1,6 @@
 section {
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,9 +11,10 @@ section {
     width: 750px;
     height: 500px;
     background-size: cover;
+    position: relative;
 }
 
-.bloque-tierra img {
+.bloque-tierra {
     width: 9%;
     background-size: cover;
     position: absolute;
@@ -19,14 +22,14 @@ section {
     right: 30%;
 }
 
-.steve img {
-    width: 17%;
+.steve {
+    width: 22%;
     background-size: cover;
     position: absolute;
-    top: 34%;
+    top: 60%;
 }
 
-.loro img {
+.loro {
     width: 7%;
     background-size: cover;
     position: absolute;
@@ -34,7 +37,7 @@ section {
     right: 40%;
 }
 
-.diamante3 img{
+.diamante1 {
     width: 5%;
     background-size: cover;
     position: absolute;
@@ -42,7 +45,7 @@ section {
     right: 32%;
 }
 
-.diamante1 img {
+.diamante2 {
     width: 5%;
     background-size: cover;
     position: absolute;
@@ -51,7 +54,7 @@ section {
 }
 
 
-.diamante2 img {
+.diamante3 {
     width: 5%;
     background-size: cover;
     position: absolute;
@@ -59,7 +62,7 @@ section {
     right: 66%;
 }
 
-.score1{
+.score1 {
     height: 50px;
     width: 100px;
     background-color: blue;
@@ -73,4 +76,37 @@ section {
     position: absolute;
     top: 3%;
     right: 69%;
+}
+
+/* segunda seccion */
+
+.fondo2 {
+    background-image: url(../IMG/sonic-background.jpg);
+    width: 750px;
+    min-width: 750px;
+    height: 500px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+
+.sonic {
+    width: 11%;
+    position: absolute;
+    top: 70%;
+    left: 3%;
+}
+
+.mone-sonic {
+    width: 8%;
+    position: absolute;
+    top: 75%;
+    right: 4%;
+}
+
+.mone-sonic2 {
+    width: 8%;
+    position: absolute;
+    top: 10%;
+    left: 33%;
 }
