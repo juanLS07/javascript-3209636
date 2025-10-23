@@ -15,7 +15,7 @@ section {
 }
 
 .bloque-tierra {
-    width: 9%;
+    width: 14%;
     background-size: cover;
     position: absolute;
     top: 24%;
@@ -26,19 +26,19 @@ section {
     width: 22%;
     background-size: cover;
     position: absolute;
-    top: 60%;
+    top: 55%;
 }
 
 .loro {
-    width: 7%;
+    width: 11%;
     background-size: cover;
     position: absolute;
     top: 10%;
-    right: 40%;
+    right: 50%;
 }
 
 .diamante1 {
-    width: 5%;
+    width: 9%;
     background-size: cover;
     position: absolute;
     top: 19%;
@@ -46,16 +46,16 @@ section {
 }
 
 .diamante2 {
-    width: 5%;
+    width: 9%;
     background-size: cover;
     position: absolute;
-    top: 57%;
+    top: 74%;
     right: 23%;
 }
 
 
 .diamante3 {
-    width: 5%;
+    width: 9%;
     background-size: cover;
     position: absolute;
     top: 25%;
@@ -85,7 +85,6 @@ section {
     width: 750px;
     min-width: 750px;
     height: 500px;
-    height: 500px;
     background-size: cover;
     position: relative;
 }
@@ -109,4 +108,25 @@ section {
     position: absolute;
     top: 10%;
     left: 33%;
+}
+
+.mone-sonic3 {
+    width: 8%;
+    position: absolute;
+    top: 60%;
+    right: 35%;
+}
+
+.mone-sonic4 {
+    width: 8%;
+    position: absolute;
+    top: 40%;
+    right: 11%;
+}
+
+.tornado {
+      width: 12%;
+    position: absolute;
+    top: 40%;
+    left: 20%;    
 }
