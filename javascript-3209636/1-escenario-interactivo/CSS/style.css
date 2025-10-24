@@ -22,11 +22,19 @@ section {
     right: 5%;
 }
 
+.izquierda {
+    animation: mov-izquierda 2s infinite alternate;
+}
+
 .steve {
     width: 22%;
     background-size: cover;
     position: absolute;
     top: 55%;
+}
+
+.derecha {
+    animation: mov-derecha 2s infinite alternate;
 }
 
 .diamante1 {
@@ -77,6 +85,27 @@ section {
     top: 3%;
     left: 2%;
 }
+
+@keyframes mov-derecha {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(250px);
+    }
+}
+
+@keyframes mov-izquierda {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-250px);
+    }
+}
+
 
 /* segunda seccion */
 
@@ -189,7 +218,7 @@ section {
     width: 12%;
     position: absolute;
     top: 5%;
-    left: 5%;
+    left: 23%;
 }
 
 .llama {
@@ -213,4 +242,18 @@ section {
     position: absolute;
     top: 3%;
     left: 2%;
+}
+
+.abajo {
+      animation: mov-abajo 2s infinite alternate;
+}
+
+@keyframes mov-abajo {
+      0% {
+        transform: translatey(0);
+    }
+
+    100% {
+        transform: translatey(250px);
+    }
 }
