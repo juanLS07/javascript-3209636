@@ -70,7 +70,7 @@ section {
     right: 40%;
 }
 
-.score1 {
+.contador {
     height: 50px;
     width: 100px;
     background-color: blue;
@@ -106,6 +106,15 @@ section {
     }
 }
 
+@keyframes saltoYDesaparece {
+    0% {transform: translateY(0); opacity: 1;}
+    30% {transform: translateY(-60px);}
+    100%
+}
+
+.salto {
+  animation: saltoYDesaparece 0.5s ease forwards;
+}
 
 /* segunda seccion */
 
