@@ -1,0 +1,315 @@
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo {
+    background-image: url(../IMG/fondo-mine.jpg);
+    width: 750px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+
+.zorro {
+    width: 14%;
+    background-size: cover;
+    position: absolute;
+    top: 71%;
+    right: 5%;
+}
+
+.izquierda {
+    animation: mov-izquierda 2s infinite alternate;
+}
+
+.steve {
+    width: 22%;
+    background-size: cover;
+    position: absolute;
+    top: 55%;
+}
+
+.derecha {
+    animation: mov-derecha 2s infinite alternate;
+}
+
+.diamante1 {
+    width: 8%;
+    background-size: cover;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+.diamante2 {
+    width: 8%;
+    background-size: cover;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+
+
+.diamante3 {
+    width: 8%;
+    background-size: cover;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+
+.diamante4 {
+    width: 8%;
+    background-size: cover;
+    position: absolute;
+    top: 30%;
+    right: 40%;
+}
+
+.contador {
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    color: black;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+.miniatura1 {
+    width: 15%;
+    background-size: cover;
+    position: absolute;
+    top: 110%;
+    border-radius: 10%;
+    left: 20%;
+}
+
+.miniatura2 {
+    width: 13%;
+    background-size: cover;
+    position: absolute;
+    top: 110%;
+    border-radius: 10%;
+    left: 40%;
+}
+
+.miniatura3 {
+    width: 15%;
+    background-size: cover;
+    position: absolute;
+    top: 110%;
+    border-radius: 10%;
+    left: 60%;
+}
+
+.flecha-derecha {
+    width: 15%;
+    background-size: cover;
+    position: absolute;
+    right: -20%;
+    top: 38%;
+}
+
+.flecha-izquierda {
+     width: 15%;
+    background-size: cover;
+    position: absolute;
+    left: -20%;
+    top: 38%;
+}
+
+.activa {
+    display: block;
+}
+
+@keyframes mov-derecha {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(250px);
+    }
+}
+
+@keyframes mov-izquierda {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-250px);
+    }
+}
+
+@keyframes saltoYDesaparece {
+    0% {transform: translateY(0); opacity: 1;}
+    30% {transform: translateY(-60px);}
+    100% {transform: translateY(0); opacity: 0;}
+}
+
+.salto {
+  animation: saltoYDesaparece 0.5s ease forwards;
+}
+
+/* segunda seccion */
+
+.fondo2 {
+    background-image: url(../IMG/sonic-background.jpg);
+    width: 750px;
+    min-width: 750px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+
+.sonic {
+    width: 11%;
+    position: absolute;
+    top: 70%;
+    left: 3%;
+}
+
+.mone-sonic {
+    width: 8%;
+    position: absolute;
+    top: 75%;
+    right: 4%;
+}
+
+.mone-sonic2 {
+    width: 8%;
+    position: absolute;
+    top: 10%;
+    left: 33%;
+}
+
+.mone-sonic3 {
+    width: 8%;
+    position: absolute;
+    top: 60%;
+    right: 35%;
+}
+
+.mone-sonic4 {
+    width: 8%;
+    position: absolute;
+    top: 40%;
+    right: 11%;
+}
+
+.tornado {
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.score2 {
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    color: black;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+/* Escenario 3*/
+
+.fondo3 {
+    background-image: url(../IMG/pisospicados.jpg);
+    width: 750px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+
+.scar {
+    width: 12%;
+    position: absolute;
+    top: 75%;
+    right: 30%;
+}
+
+.franco {
+    width: 12%;
+    position: absolute;
+    top: 38%;
+    left: 10%;
+}
+
+.subfusil {
+    width: 12%;
+    position: absolute;
+    top: 20%;
+    right: 50%;
+}
+
+.pump {
+    width: 12%;
+    position: absolute;
+    top: 15%;
+    right: 19%;
+}
+
+.air {
+    width: 12%;
+    position: absolute;
+    top: 5%;
+    left: 23%;
+}
+
+.llama {
+    width: 12%;
+    position: absolute;
+    top: 5%;
+    right: 35%;
+}
+
+.score3 {
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    color: black;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+.abajo {
+      animation: mov-abajo 2s infinite alternate;
+}
+
+@keyframes mov-abajo {
+      0% {
+        transform: translatey(0);
+    }
+
+    100% {
+        transform: translatey(250px);
+    }
+}
