@@ -86,6 +86,53 @@ section {
     left: 2%;
 }
 
+.miniatura1 {
+    width: 15%;
+    background-size: cover;
+    position: absolute;
+    top: 110%;
+    border-radius: 10%;
+    left: 20%;
+}
+
+.miniatura2 {
+    width: 13%;
+    background-size: cover;
+    position: absolute;
+    top: 110%;
+    border-radius: 10%;
+    left: 40%;
+}
+
+.miniatura3 {
+    width: 15%;
+    background-size: cover;
+    position: absolute;
+    top: 110%;
+    border-radius: 10%;
+    left: 60%;
+}
+
+.flecha-derecha {
+    width: 15%;
+    background-size: cover;
+    position: absolute;
+    right: -20%;
+    top: 38%;
+}
+
+.flecha-izquierda {
+     width: 15%;
+    background-size: cover;
+    position: absolute;
+    left: -20%;
+    top: 38%;
+}
+
+.activa {
+    display: block;
+}
+
 @keyframes mov-derecha {
     0% {
         transform: translateX(0);
@@ -109,7 +156,7 @@ section {
 @keyframes saltoYDesaparece {
     0% {transform: translateY(0); opacity: 1;}
     30% {transform: translateY(-60px);}
-    100%
+    100% {transform: translateY(0); opacity: 0;}
 }
 
 .salto {
