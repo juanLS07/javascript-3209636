@@ -1,3 +1,9 @@
+.padre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 section {
     width: 100%;
     height: 100vh;
@@ -114,23 +120,13 @@ section {
 }
 
 .flecha-derecha {
-    width: 15%;
+    width: 50px;
     background-size: cover;
-    position: absolute;
-    right: -20%;
-    top: 38%;
 }
 
 .flecha-izquierda {
-     width: 15%;
+     width: 50px;
     background-size: cover;
-    position: absolute;
-    left: -20%;
-    top: 38%;
-}
-
-.activa {
-    display: block;
 }
 
 @keyframes mov-derecha {
@@ -312,4 +308,12 @@ section {
     100% {
         transform: translatey(250px);
     }
+}
+
+.escena{
+    display: none;
+}
+
+.activa {
+    display: block;
 }

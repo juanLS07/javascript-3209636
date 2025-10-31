@@ -16,7 +16,7 @@ objetos.forEach(d1 => {
   });
 });
 
- // SONIC
+// SONIC
 
 const contadorSonic = document.querySelector('.score2 .score');
 const monedas = document.querySelectorAll('.moneda');
@@ -56,3 +56,32 @@ armas.forEach(arma => {
     }, { once: true });
   });
 });
+
+
+// carrusel
+
+//1. variables
+
+const escenas = document.querySelectorAll(".escena")
+const derecha = document.querySelector(".btn-siguiente")
+const izquierda = document.querySelector(".btn-anterior")
+const miniaturas = document.querySelectorAll(".miniatura")
+let indice = 0
+
+console.log(escenas)
+console.log(derecha)
+console.log(izquierda)
+console.log(miniaturas)
+
+//2. funciones
+function mostrarEscena (i) {
+  for (let j = 0; j < escenas.length; j++) {
+     
+      escenas[j].classList.remove('activa')
+  }
+
+      escenas[i].classList.add('activa')
+
+}
+mostrarEscena (0)
+//3. eventos
