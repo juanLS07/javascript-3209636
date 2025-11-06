@@ -93,40 +93,45 @@ section {
 }
 
 .miniatura1 {
-    width: 15%;
+    width: 10%;
+    height: 10%;
     background-size: cover;
     position: absolute;
-    top: 110%;
+    top: 85%;
     border-radius: 10%;
-    left: 20%;
+    left: 30%;
 }
 
 .miniatura2 {
-    width: 13%;
+    width: 10%;
+    height: 10%;
     background-size: cover;
     position: absolute;
-    top: 110%;
+    top: 85%;
     border-radius: 10%;
-    left: 40%;
+    left: 45%;
 }
 
 .miniatura3 {
-    width: 15%;
+    width: 10%;
+    height: 10%;
     background-size: cover;
     position: absolute;
-    top: 110%;
+    top: 85%;
     border-radius: 10%;
     left: 60%;
 }
 
 .flecha-derecha {
-    width: 50px;
+    width: 60px;
     background-size: cover;
+    margin-left: 20px;
 }
 
 .flecha-izquierda {
-     width: 50px;
+     width: 60px;
     background-size: cover;
+    margin-right: 20px;
 }
 
 @keyframes mov-derecha {
