@@ -1,6 +1,6 @@
 let comic = {
   "nombreComic": "NarraMentum",
-  "sinopsis": "Un cómic que narra historias de la epoca industrial con un toque de fantasía y aventura.",
+  "sinopsis": "Una historia que combina misterio, historia y ciencia ficción, donde un hallazgo inesperado desencadena una cadena de sucesos que desafían el tiempo y la realidad. Entre minas oscuras, máquinas imponentes y secretos ocultos durante siglos, los personajes se enfrentan a preguntas sobre el poder, la ambición y el verdadero origen del conocimiento humano..",
   "year": 2025,
   "autores": ["Juan Lopera", "Diego Alonso"],
   "personajes": ["James Watt", "Eloy", "Ninove", "Mineros"],
