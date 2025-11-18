@@ -14,14 +14,29 @@ infoComic.innerHTML = `
 `*/
 
 const BannerNM = document.querySelector(".banner")
+BannerNM.style.backgroundImage = `url('${comic.portada}`
+
+const listaCap = document.querySelector(".Escenas123")
 
 console.log(BannerNM)
+console.log(comic.escenas)
 
 BannerNM.innerHTML = `
-   <div class="container">
+   <div class="container" )">
         <h1>${comic.nombreComic}</h1>
         <p>${comic.sinopsis}</p>
         <button>Leer Comic</button>
         </div>
         <h3>SCROLL</h3>
 `
+comic.escenas.forEach(escena => {
+        const miCard = document.createElement("div")
+        miCard.classList.add("tarjeta-cap")
+        miCard.innerHTML = `
+        <img src="${escena.image}" />
+        <p>${escena.nombre}</p>
+        `
+
+        listaCap.appendChild(miCard)
+        console.log(escena.nombre)
+});

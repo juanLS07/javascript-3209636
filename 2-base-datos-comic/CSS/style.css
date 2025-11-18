@@ -45,7 +45,6 @@ header li {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-image: url('../IMG/locomotora.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,12 +59,12 @@ header li {
 
 .banner h1 {
     font-size: 48px;
-    color: white;
+    color: #3F2212;
 }
 
 .banner p {
     font-size: 20px;
-    color: white;
+    color: #3F2212;
 }
 
 .banner h3 {
