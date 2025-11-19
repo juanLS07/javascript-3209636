@@ -19,25 +19,25 @@ let comic = {
     },
   ],
   "genero": "ficcion",
-  "portada": "./IMG/locomotora.webp",
+  "portada": "./IMG/fondoRV.jpg",
   "escenas": [
     {
       "id": 1,
-      "nombre": "Dia de mina",
+      "nombre": "Forjando el hierro",
       "personajes": ["Mineros", "Eloy"],
       "image": "./IMG/fabrica.png",
     },
    
     {
       "id": 2,
-      "nombre": "encontrar los objetos",
+      "nombre": "En la fabrica",
       "personajes": ["Mineros", "Eloy"],
       "image": "./IMG/ambiente.jpg",
     },
    
     {
       "id": 3,
-      "nombre": "ninove",
+      "nombre": "Tirando espada",
       "personajes": ["James Watt", "Ninove"],
       "image": "./IMG/fabrica.png",
     },

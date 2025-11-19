@@ -31,10 +31,11 @@ BannerNM.innerHTML = `
 `
 comic.escenas.forEach(escena => {
         const miCard = document.createElement("div")
-        miCard.classList.add("tarjeta-cap")
+        miCard.classList.add("episode")
         miCard.innerHTML = `
-        <img src="${escena.image}" />
-        <p>${escena.nombre}</p>
+         <h1 class="titu-episodio">${escena.nombre}</h1>
+        <img src="${escena.image}" alt="">
+        <button>Leer ahora</button>
         `
 
         listaCap.appendChild(miCard)
