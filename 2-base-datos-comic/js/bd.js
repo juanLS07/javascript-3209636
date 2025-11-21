@@ -7,15 +7,17 @@ let comic = {
     {
       "nombre": "Eloy"
       ,"imagen": "./IMG/eloy.jpg"
-      ,"descripcion": "lorem"
+      ,"descripcion": "El minero protagonista."
     },
     {
       "nombre": "James Watt"
       ,"imagen": "./IMG/james.png"
+      ,"descripcion": "Inventor de la máquina de vapor."
     },
     {
       "nombre": "Ninove"
       ,"imagen": "./IMG/ninove.jpg"
+      ,"descripcion": "Una viajera del tiempo."
     },
   ],
   "genero": "ficcion",

@@ -20,6 +20,7 @@ const listaCap = document.querySelector(".Escenas123")
 
 console.log(BannerNM)
 console.log(comic.escenas)
+console.log(comic.personajes)
 
 BannerNM.innerHTML = `
    <div class="container" )">
@@ -41,3 +42,19 @@ comic.escenas.forEach(escena => {
         listaCap.appendChild(miCard)
         console.log(escena.nombre)
 });
+
+const perso = document.querySelector (".personajes")
+
+comic.personajes.forEach(per =>{
+        const micard = document.createElement("div")
+        micard.classList.add("personaje")
+        micard.innerHTML = `
+                <div class="personaje">
+            <img src="${per.imagen}" alt="James Watt">
+            <h2>${per.nombre}</h2>
+            <p>${per.descripcion}</p>
+        </div>
+        `
+
+        perso.appendChild(micard)
+})
