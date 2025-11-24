@@ -1,0 +1,21 @@
+.titutitu {
+    background-color: #CD853F;
+}
+
+.video123 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.images-container img {
+    max-width: 45%;
+    height: auto;
+}
