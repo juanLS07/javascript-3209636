@@ -6,6 +6,7 @@
 
 .perso-header {
     background-color: #CD853F;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -23,6 +24,8 @@
 }
 
 .eloy-per {
+    background-color: #753802;
+    color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,6 +36,10 @@
     width: 40%;
     border-radius: 20px;
     padding: 10px;
+}
+
+.eloy-per p {
+    font-size: 24px;
 }
 
 footer {

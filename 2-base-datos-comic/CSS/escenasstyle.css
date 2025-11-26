@@ -35,6 +35,11 @@
     padding: 15px;
 }
 
+.esc-pag {
+    background-color: #753802;
+    color: white;
+}
+
 .perso-par {
     display: flex;
     align-items: center;
@@ -64,6 +69,10 @@
     align-items: center;
     margin-bottom: 20px;
     padding: 15px;
+}
+
+.video123 video{
+    border-radius: 25px;
 }
 
 footer {
