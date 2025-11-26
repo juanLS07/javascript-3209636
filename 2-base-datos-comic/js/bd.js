@@ -5,16 +5,19 @@ let comic = {
   "autores": ["Juan Lopera", "Diego Alonso"],
   "personajes": [
     {
+      "id": 1,
       "nombre": "Eloy"
       ,"imagen": "./IMG/eloy.jpg"
       ,"descripcion": "El minero protagonista."
     },
     {
+      "id": 2,
       "nombre": "James Watt"
       ,"imagen": "./IMG/james.png"
       ,"descripcion": "Inventor de la máquina de vapor."
     },
     {
+      "id": 3,
       "nombre": "Ninove"
       ,"imagen": "./IMG/ninove.jpg"
       ,"descripcion": "Una viajera del tiempo."

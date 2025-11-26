@@ -232,6 +232,11 @@ footer li {
     align-self: center;
 }
 
+.link {
+    text-decoration: none;
+    color: black;
+}
+
 /* Responsive para tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
     .banner {
