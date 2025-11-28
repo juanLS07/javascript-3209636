@@ -1,4 +1,4 @@
-let comic = {
+export let comic = {
   "nombreComic": "NarraMentum",
   "sinopsis": "Una historia que combina misterio, historia y ciencia ficción, donde un hallazgo inesperado desencadena una cadena de sucesos que desafían el tiempo y la realidad. Entre minas oscuras, máquinas imponentes y secretos ocultos durante siglos, los personajes se enfrentan a preguntas sobre el poder, la ambición y el verdadero origen del conocimiento humano..",
   "year": 2025,
@@ -7,8 +7,10 @@ let comic = {
     {
       "id": 1,
       "nombre": "Eloy"
-      ,"imagen": "./IMG/eloy.jpg"
+      ,"imagen": "./IMG/eloyper.jpg"
       ,"descripcion": "El minero protagonista."
+      ,"esc": "./IMG/enc-esq.png"
+      ,"desesc": "Momento donde se aprecia a Eloy encontrando el esqueleto con los objetos"
     },
     {
       "id": 2,

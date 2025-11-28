@@ -13,6 +13,8 @@ infoComic.innerHTML = `
         <p>${comic.genero}</p>
 `*/
 
+import { comic } from "./bd.js"
+
 const BannerNM = document.querySelector(".banner")
 BannerNM.style.backgroundImage = `url('${comic.portada}`
 
