@@ -33,6 +33,7 @@ export let comic = {
       "nombre": "Forjando el hierro",
       "personajes": ["Mineros", "Eloy"],
       "image": "./IMG/fabrica.png",
+      "descripcion": "Eloy y sus comapañeros estan en la mina trabajando, de repente Eloy encuentra lo que parece ser un esqueleto humano con unos objetos misteriosos"
     },
    
     {
@@ -40,6 +41,7 @@ export let comic = {
       "nombre": "En la fabrica",
       "personajes": ["Mineros", "Eloy"],
       "image": "./IMG/ambiente.jpg",
+       "descripcion": "Eloy y sus comapañeros estan en la mina trabajando, de repente Eloy encuentra lo que parece ser un esqueleto humano con unos objetos misteriosos"
     },
    
     {
@@ -47,6 +49,7 @@ export let comic = {
       "nombre": "Tirando espada",
       "personajes": ["James Watt", "Ninove"],
       "image": "./IMG/fabrica.png",
+       "descripcion": "Eloy y sus comapañeros estan en la mina trabajando, de repente Eloy encuentra lo que parece ser un esqueleto humano con unos objetos misteriosos"
     },
    
   ]
