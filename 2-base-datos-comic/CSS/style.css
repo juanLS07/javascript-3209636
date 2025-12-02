@@ -20,7 +20,13 @@ header {
     align-items: center;
 }
 
-header h1 {
+header h1:first-of-type {
+    font-size: 24px;
+    flex: 1;
+    text-align: center;
+}
+
+header h1:nth-of-type(2) {
     font-size: 24px;
 }
 
@@ -237,115 +243,59 @@ footer li {
     color: black;
 }
 
-/* Responsive para tablets */
-@media (min-width: 768px) and (max-width: 1024px) {
+/* Tablet responsive */
+@media (max-width: 1100px) {
+    header {
+        padding: 10px 15px;
+        flex-wrap: wrap;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header ul {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
     .banner {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        padding: 15px;
+        height: 80vh;
     }
 
     .banner h1 {
         font-size: 36px;
     }
 
-    .banner h3 {
-        font-size: 18px;
-    }
-
-    .banner button {
-        font-size: 16px;
-        padding: 12px 24px;
-    }
-
-    header {
-        padding: 15px 30px;
-    }
-
-    header h1 {
-        font-size: 28px;
-    }
-
-    header ul {
-        gap: 15px;
-    }
-
-    .personajes {
-        padding: 30px 20px;
-    }
-
-    .trailer {
-        padding: 30px 20px;
-    }
-
-    .episode {
-        margin-bottom: 30px;
-    }
-
-    footer {
-        padding: 15px 30px;
-    }
-}
-
-/* Responsive para móviles */
-@media (max-width: 767px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-        padding: 10px;
-    }
-
-    header h1 {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-
-    header ul {
-        flex-direction: column;
-        gap: 10px;
-        padding: 0;
-    }
-
-    .banner {
-        padding: 10px;
-        height: auto;
-        min-height: 100vh;
-    }
-
-    .banner h1 {
-        font-size: 32px;
-    }
-
     .banner p {
         font-size: 16px;
     }
 
-    .banner h3 {
-        font-size: 18px;
-    }
-
     .banner button {
         font-size: 16px;
         padding: 12px 24px;
+        margin: 0 auto;
+        display: block;
     }
 
     .personajes {
-        padding: 20px 10px;
+        padding: 30px 15px;
     }
 
     .personajes h1 {
         font-size: 28px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .personaje {
-        margin: 10px;
-        max-width: 150px;
+        max-width: 180px;
+        margin: 15px;
     }
 
     .personaje img {
-        width: 120px;
-        height: 120px;
+        width: 130px;
+        height: 130px;
     }
 
     .personaje h2 {
@@ -353,41 +303,32 @@ footer li {
     }
 
     .personaje p {
-        font-size: 12px;
+        font-size: 13px;
     }
 
-    .trailer {
-        padding: 20px 10px;
-        flex-direction: column;
-        align-items: center;
+    .Escenas123 {
+        padding-bottom: 15px;
+        gap: 20px;
+        flex-wrap: wrap;
     }
 
-    .trailer h1 {
-        font-size: 28px;
-        margin-bottom: 20px;
+    .episode img {
+        width: 250px;
     }
 
-    .episode {
-        margin-bottom: 20px;
-    }
-
-    .titu-episodio {
+    .episode h1 {
         font-size: 20px;
     }
 
-    .trailer img {
-        max-width: 150px;
-    }
-
     footer {
-        flex-direction: column;
+        padding: 15px;
+        flex-wrap: wrap;
         text-align: center;
-        padding: 15px 10px;
     }
 
     footer ul {
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 10px;
+        gap: 15px;
+        flex-wrap: wrap;
     }
 }
+
