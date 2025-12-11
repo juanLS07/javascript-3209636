@@ -16,7 +16,6 @@ infoComic.innerHTML = `
 import { comic } from "./bd.js"
 
 const BannerNM = document.querySelector(".banner")
-BannerNM.style.backgroundImage = `url('${comic.portada}`
 
 const listaCap = document.querySelector(".Escenas123")
 
@@ -25,6 +24,11 @@ console.log(comic.escenas)
 console.log(comic.personajes)
 
 BannerNM.innerHTML = `
+<div class="carousel">
+    <div class="slide active" style="background-image: url('./IMG/fondoRV.jpg')"></div>
+    <div class="slide" style="background-image: url('./IMG/banner101.jpeg')"></div>
+    <div class="slide" style="background-image: url('./IMG/banner102.jpeg')"></div>
+</div>
    <div class="container" )">
         <h1>${comic.nombreComic}</h1>
         <p>${comic.sinopsis}</p>
@@ -32,6 +36,22 @@ BannerNM.innerHTML = `
         </div>
         <h3>SCROLL</h3>
 `
+
+const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+
+function showSlide(index) {
+    slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+    });
+}
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+}
+
+setInterval(nextSlide, 3000);
 comic.escenas.forEach(escena => {
         const miCard = document.createElement("div")
         miCard.classList.add("episode")
