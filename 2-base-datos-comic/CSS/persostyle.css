@@ -23,6 +23,95 @@
     cursor: pointer;
 }
 
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A0522D;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #8B4513;
+}
+
+/* Tablet responsive */
+@media (max-width: 768px) {
+    .perso-header {
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .perso-header h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .perso-header ul {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .eloy-per {
+        padding: 20px;
+    }
+
+    .eloy-per img {
+        width: 50%;
+    }
+
+    .eloy-per p {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer ul {
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+    .perso-header h1 {
+        font-size: 18px;
+    }
+
+    .perso-header ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .eloy-per {
+        padding: 15px;
+    }
+
+    .eloy-per img {
+        width: 70%;
+    }
+
+    .eloy-per p {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
 .eloy-per {
     background-color: #753802;
     color: white;

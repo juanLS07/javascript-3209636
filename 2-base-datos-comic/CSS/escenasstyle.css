@@ -23,6 +23,20 @@
     cursor: pointer;
 }
 
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A0522D;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #8B4513;
+}
+
 .titu-epi {
     display: flex;
     justify-content: center;
@@ -98,4 +112,109 @@ footer ul {
 
 footer li {
     cursor: pointer;
+}
+
+/* Tablet responsive */
+@media (max-width: 768px) {
+    .titutitu {
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titutitu h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .titutitu ul {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .descrip-esc {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .perso-par {
+        padding: 10px;
+    }
+
+    .perso-par ul {
+        gap: 10px;
+        font-size: 18px;
+        flex-wrap: wrap;
+    }
+
+    .perso-par h1 {
+        font-size: 20px;
+    }
+
+    .video123 {
+        padding: 10px;
+    }
+
+    .video123 video {
+        width: 80%;
+        height: auto;
+    }
+
+    footer {
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer ul {
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+    .titutitu h1 {
+        font-size: 18px;
+    }
+
+    .titutitu ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .descrip-esc {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .perso-par {
+        padding: 5px;
+    }
+
+    .perso-par ul {
+        font-size: 16px;
+        gap: 5px;
+    }
+
+    .perso-par h1 {
+        font-size: 18px;
+    }
+
+    .video123 {
+        padding: 5px;
+    }
+
+    .video123 video {
+        width: 90%;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 5px;
+    }
 }

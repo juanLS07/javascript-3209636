@@ -27,3 +27,17 @@ body {
         opacity: 1;
     }
 }
+
+/* Tablet responsive */
+@media (max-width: 768px) {
+    .imagen-tren {
+        max-width: 250px;
+    }
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+    .imagen-tren {
+        max-width: 200px;
+    }
+}
