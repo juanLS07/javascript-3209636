@@ -1,3 +1,4 @@
+/* Cuerpo */
 body {
     background-color: black;
     display: flex;
@@ -8,12 +9,14 @@ body {
     animation: entradaNegra 2s ease-in-out forwards;
 }
 
+/* Animaciones */
 @keyframes entradaNegra {
     to {
         background-color: #CD853F;
     }
 }
 
+/* Imagen Tren */
 .imagen-tren {
     cursor: pointer;
     max-width: 300px;
@@ -28,14 +31,14 @@ body {
     }
 }
 
-/* Tablet responsive */
+/* Responsivo - Tablet */
 @media (max-width: 768px) {
     .imagen-tren {
         max-width: 250px;
     }
 }
 
-/* Mobile responsive */
+/* Responsivo - Móvil */
 @media (max-width: 480px) {
     .imagen-tren {
         max-width: 200px;
