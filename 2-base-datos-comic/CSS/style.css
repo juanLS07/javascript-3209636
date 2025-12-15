@@ -1,9 +1,11 @@
+/* Reinicio */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Cuerpo */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -11,6 +13,7 @@ body {
     background-color: #fff;
 }
 
+/* Animaciones */
 @keyframes deslizarDesdeArriba {
     from {
         transform: translateY(-100%);
@@ -33,6 +36,7 @@ body {
     }
 }
 
+/* Estilos del header */
 header {
     background-color: #CD853F;
     color: #fff;
@@ -43,6 +47,8 @@ header {
     animation: deslizarDesdeArriba 1s ease-in-out;
 }
 
+/* Estilos del banner */
+/* Banner */
 .banner {
     display: flex;
     flex-direction: column;
@@ -87,6 +93,7 @@ header li {
     height: 100vh;
 }
 
+/* Contenedor */
 .container {
     max-width: 1200px;
     margin: auto;
@@ -128,6 +135,7 @@ button {
     cursor: pointer;
 }
 
+/* Trailer */
 .trailer {
     padding: 40px 20px;
     background-color: #753802;
@@ -146,6 +154,7 @@ button {
     text-align: center;
 }
 
+/* Escenas */
 .Escenas123 {
     background-color: #f4f4f4;
     display: flex;
@@ -156,11 +165,18 @@ button {
     gap: 30px;
 }
 
+/* Episodio */
 .episode {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.episode:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .episode h1{
@@ -183,6 +199,7 @@ button {
     color: white;
 }
 
+/* Personajes */
 .personajes {
     padding: 40px 20px;
     background-color: #f4f4f4;
@@ -200,6 +217,7 @@ button {
     width: 100%;
 }
 
+/* Personaje */
 .personaje {
     display: flex;
     flex-direction: column;
@@ -270,9 +288,15 @@ footer li {
 .link {
     text-decoration: none;
     color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Tablet responsive */
+.link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsivo - Tablet */
 @media (max-width: 1100px) {
     header {
         padding: 10px 15px;
@@ -361,6 +385,7 @@ footer li {
     }
 }
 
+/* Carrusel */
 .carousel {
     position: absolute;
     top: 0;
@@ -370,6 +395,7 @@ footer li {
     z-index: -1;
 }
 
+/* Diapositiva */
 .slide {
     position: absolute;
     top: 0;
@@ -386,7 +412,7 @@ footer li {
     opacity: 1;
 }
 
-/* Mobile responsive */
+/* Responsivo - Móvil */
 @media (max-width: 768px) {
     header {
         padding: 10px;

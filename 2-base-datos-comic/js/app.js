@@ -1,3 +1,4 @@
+// Código comentado anterior (no usado)
 /*const infoComic = document.querySelector(".info-comic")
 const listaCapitulos = document.querySelector(".lista-capitulos")
 
@@ -13,8 +14,10 @@ infoComic.innerHTML = `
         <p>${comic.genero}</p>
 `*/
 
+// Importación de datos del cómic
 import { comic } from "./bd.js"
 
+// Configuración del banner con carrusel
 const BannerNM = document.querySelector(".banner")
 
 const listaCap = document.querySelector(".Escenas123")
@@ -37,6 +40,9 @@ BannerNM.innerHTML = `
         <h3>SCROLL</h3>
 `
 
+
+
+// Funciones del carrusel
 const slides = document.querySelectorAll('.slide');
 let currentSlide = 0;
 
@@ -52,6 +58,10 @@ function nextSlide() {
 }
 
 setInterval(nextSlide, 3000);
+
+
+
+// Renderizado de escenas
 comic.escenas.forEach(escena => {
         const miCard = document.createElement("div")
         miCard.classList.add("episode")
@@ -67,6 +77,9 @@ comic.escenas.forEach(escena => {
         console.log(escena.nombre)
 });
 
+
+
+// Renderizado de personajes
 const perso = document.querySelector (".personajes")
 
 comic.personajes.forEach(per =>{

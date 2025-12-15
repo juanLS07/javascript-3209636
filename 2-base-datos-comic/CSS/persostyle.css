@@ -1,9 +1,16 @@
+/* Reinicio */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Cuerpo */
+body {
+    background-color: black;
+}
+
+/* Cabecera */
 .perso-header {
     background-color: #CD853F;
     color: white;
@@ -23,6 +30,7 @@
     cursor: pointer;
 }
 
+/* Botón Atrás */
 .back-button {
     display: inline-block;
     padding: 10px 20px;
@@ -37,7 +45,7 @@
     background-color: #8B4513;
 }
 
-/* Tablet responsive */
+/* Responsivo - Tablet */
 @media (max-width: 768px) {
     .perso-header {
         padding: 10px;
@@ -79,7 +87,7 @@
     }
 }
 
-/* Mobile responsive */
+/* Responsivo - Móvil */
 @media (max-width: 480px) {
     .perso-header h1 {
         font-size: 18px;
@@ -112,6 +120,7 @@
     }
 }
 
+/* Sección Eloy */
 .eloy-per {
     background-color: #753802;
     color: white;
@@ -131,6 +140,7 @@
     font-size: 24px;
 }
 
+/* Pie de Página */
 footer {
     background-color: #CD853F;
     color: #fff;

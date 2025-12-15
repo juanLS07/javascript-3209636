@@ -1,5 +1,5 @@
 export let comic = {
-  "nombreComic": "NarraMentum",
+  "nombreComic": "NARRAMENTUM",
   "sinopsis": "Una historia que combina misterio, historia y ciencia ficción, donde un hallazgo inesperado desencadena una cadena de sucesos que desafían el tiempo y la realidad. Entre minas oscuras, máquinas imponentes y secretos ocultos durante siglos, los personajes se enfrentan a preguntas sobre el poder, la ambición y el verdadero origen del conocimiento humano..",
   "year": 2025,
   "autores": ["Juan Lopera", "Diego Alonso"],
@@ -25,31 +25,31 @@ export let comic = {
       ,"descripcion": "Una viajera del tiempo."
     },
   ],
-  "genero": "ficcion",
+  "genero": "ficción",
   "portada": "./IMG/fondoRV.jpg",
   "escenas": [
     {
       "id": 1,
-      "nombre": "Forjando el hierro",
+      "nombre": "FORJANDO EL HIERRO",
       "personajes": ["Mineros", "Eloy"],
       "image": "./IMG/fabrica.png",
-      "descripcion": "Eloy y sus comapañeros estan en la mina trabajando, de repente Eloy encuentra lo que parece ser un esqueleto humano con unos objetos misteriosos"
+      "descripcion": "Eloy y sus compañeros están en la mina trabajando, de repente Eloy encuentra lo que parece ser un esqueleto humano con unos objetos misteriosos"
     },
    
     {
       "id": 2,
-      "nombre": "En la fabrica",
+      "nombre": "EN LA FABRICA",
       "personajes": ["Mineros", "Eloy"],
       "image": "./IMG/ambiente.jpg",
-       "descripcion": "Eloy y sus comapañeros estan en la mina trabajando, de repente Eloy encuentra lo que parece ser un esqueleto humano con unos objetos misteriosos"
+       "descripcion": "Eloy y sus compañeros están en la mina trabajando, de repente Eloy encuentra lo que parece ser un esqueleto humano con unos objetos misteriosos"
     },
    
     {
       "id": 3,
-      "nombre": "Tirando espada",
+      "nombre": "TIRANDO ESPADA",
       "personajes": ["James Watt", "Ninove"],
       "image": "./IMG/fabrica.png",
-       "descripcion": "Eloy y sus comapañeros estan en la mina trabajando, de repente Eloy encuentra lo que parece ser un esqueleto humano con unos objetos misteriosos"
+       "descripcion": "Eloy y sus compañeros están en la mina trabajando, de repente Eloy encuentra lo que parece ser un esqueleto humano con unos objetos misteriosos"
     },
    
   ]
